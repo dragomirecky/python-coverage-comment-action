@@ -37,7 +37,7 @@ class CommentLoader(jinja2.BaseLoader):
         if template == "base":
             return (
                 self.base_template,
-                "coverage_comment/template_files/comment.md.j2",
+                str(resources.files("coverage_comment") / "template_files" / "comment.md.j2"),
                 uptodate,
             )
 
