@@ -12,6 +12,7 @@ coverage_comment = 'coverage_comment.main:main'
 
 [project]
 name = "python-coverage-commect-action"
+version = "3.29.0"
 requires-python = ">=3.12"
 
 [tool.poetry.dependencies]
